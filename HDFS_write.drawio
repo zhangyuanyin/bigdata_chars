@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-09T12:12:22.977Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="FMX7lvnS6M2XI2oLxF3k" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-09T12:14:33.913Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="kX3zeSbZR3TdSYhNvh_5" version="14.5.7" type="github">
   <diagram id="VYGcic_u051YOZ7rhntI" name="Page-1">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -235,8 +235,8 @@
             <mxPoint x="680" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yBNDKVuawwleMOBCAEkQ-60" value="&lt;font color=&quot;#97d077&quot;&gt;心跳汇报Block位置信息和大小&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="400" width="190" height="20" as="geometry" />
+        <mxCell id="yBNDKVuawwleMOBCAEkQ-60" value="&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;心跳汇报Block位置信息和大小&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="380" width="190" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
