@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-11T06:27:51.486Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="93HsaRY_IN91RRH4bBtB" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-11T06:31:26.651Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="PbnjcqjkujpW8ZI6yFTg" version="14.5.7" type="github">
   <diagram id="VYGcic_u051YOZ7rhntI" name="Page-1">
-    <mxGraphModel dx="926" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -325,8 +325,11 @@
         <mxCell id="db0f5_VPX7KSZ9gDBuB1-33" value="5. read" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="430" y="1149" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="db0f5_VPX7KSZ9gDBuB1-34" value="1. 客户端发起读操作；&lt;br&gt;2. 调用 DistributedFileSystem 接口，获取要读取的内容，块的位置信息；&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
-          <mxGeometry x="890" y="945" width="260" height="455" as="geometry" />
+        <mxCell id="db0f5_VPX7KSZ9gDBuB1-34" value="1. 客户端发起读操作；&lt;br&gt;2. 调用 DistributedFileSystem 接口，获取要读取的内容，块的位置信息；&lt;br&gt;3. 调用 FSDataInputStram接口读取不同的块；&lt;br&gt;4. 关闭流，将块组成文件返回给客户端。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="827" y="950" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="db0f5_VPX7KSZ9gDBuB1-35" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;这里的 4 、5 是并发的去读取不同的块&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="1220" width="230" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
