@@ -1,20 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2021-04-14T06:33:53.166Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="jXviNdb3VHsXehFcdFmA" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-14T12:41:14.157Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="BdT_Qh4I0D7JQfkbvBbt" version="14.5.10" type="github">
   <diagram id="lWjOg6cp8KSraKorUpdm" name="Page-1">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4Kp6o3HMMt4SV7lr1U1g-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="40" width="170" height="240" as="geometry" />
+        <mxCell id="4Kp6o3HMMt4SV7lr1U1g-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="40" width="170" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="4Kp6o3HMMt4SV7lr1U1g-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;主线程&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=1;shadow=0;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="4Kp6o3HMMt4SV7lr1U1g-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;主线程&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=1;shadow=0;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="105" y="20" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4Kp6o3HMMt4SV7lr1U1g-7" value="KafkaProducer" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="67.5" y="60" width="135" height="30" as="geometry" />
+        <mxCell id="Mn85AuaeQ5H_NYyy6468-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4Kp6o3HMMt4SV7lr1U1g-7" target="4Kp6o3HMMt4SV7lr1U1g-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4Kp6o3HMMt4SV7lr1U1g-8" value="KafkaProducer" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="67.5" y="110" width="135" height="50" as="geometry" />
+        <mxCell id="4Kp6o3HMMt4SV7lr1U1g-7" value="KafkaProducer" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="67.5" y="60" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mn85AuaeQ5H_NYyy6468-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Kp6o3HMMt4SV7lr1U1g-8" target="Mn85AuaeQ5H_NYyy6468-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Kp6o3HMMt4SV7lr1U1g-8" value="拦截器&lt;br&gt;ProducerInteceptors" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="67.5" y="130" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mn85AuaeQ5H_NYyy6468-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mn85AuaeQ5H_NYyy6468-1" target="Mn85AuaeQ5H_NYyy6468-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mn85AuaeQ5H_NYyy6468-1" value="序列化器&lt;br&gt;Serializer" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="67.5" y="200" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mn85AuaeQ5H_NYyy6468-2" value="分区器&lt;br&gt;Partitioner" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="67.5" y="270" width="135" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
