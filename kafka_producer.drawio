@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T08:25:11.186Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="0vocwP4VHMW462INFXWw" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T08:26:57.331Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="EbMXnFLSkmEyOULGUnLK" version="14.5.10" type="github">
   <diagram id="lWjOg6cp8KSraKorUpdm" name="Page-1">
     <mxGraphModel dx="1426" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -460,6 +460,24 @@
         </mxCell>
         <mxCell id="zGg2ZoUMUA5Oq04mwjyU-140" value="Broker" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1265.5" y="920" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-141" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1251" y="990" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-142" value="Acceptor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1269" y="1017" width="84" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-143" value="Endpoint" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1290.5" y="993" width="40" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-147" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1250.5" y="1215" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-148" value="Acceptor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1269" y="1226" width="84" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-149" value="Endpoint" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1290.5" y="1267" width="40" height="13" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
