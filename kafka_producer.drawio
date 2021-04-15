@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T08:19:49.445Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="eF_M8d1TI2FEh0qYyJF4" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T08:25:11.186Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="0vocwP4VHMW462INFXWw" version="14.5.10" type="github">
   <diagram id="lWjOg6cp8KSraKorUpdm" name="Page-1">
     <mxGraphModel dx="1426" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -285,7 +285,7 @@
           <mxGeometry x="535" y="1280" width="205" height="110" as="geometry" />
         </mxCell>
         <mxCell id="zGg2ZoUMUA5Oq04mwjyU-83" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="885" y="940" width="323" height="450" as="geometry" />
+          <mxGeometry x="885" y="939.5" width="323" height="450" as="geometry" />
         </mxCell>
         <mxCell id="zGg2ZoUMUA5Oq04mwjyU-84" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1241" y="940" width="139" height="450" as="geometry" />
@@ -424,6 +424,42 @@
         </mxCell>
         <mxCell id="zGg2ZoUMUA5Oq04mwjyU-126" value="Sender 线程" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="986.5" y="920" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-127" value="Sender.run" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="955" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-128" value="NetworkClient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1002.5" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-129" value="Selector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1050" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-130" value="KafkaChannel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1096.75" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-131" value="CompletedSends" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1144" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-133" value="StageReceives" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1190" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-134" value="CompletedReceives" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1245" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-135" value="InFlightRequests" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1295" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-136" value="CompletedResponse" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1345" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-137" value="poll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1106.5" y="1050" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-138" value="set send" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1106.5" y="1096.75" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-140" value="Broker" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1265.5" y="920" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
