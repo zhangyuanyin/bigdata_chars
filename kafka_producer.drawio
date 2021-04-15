@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T08:11:49.833Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="5UipMRwW3iB6Tckf2jnC" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T08:13:01.041Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="NnSxcvMvr5FOV3TXGmxI" version="14.5.10" type="github">
   <diagram id="lWjOg6cp8KSraKorUpdm" name="Page-1">
     <mxGraphModel dx="1426" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -346,6 +346,27 @@
               <mxPoint x="290" y="1118" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-98" value="BufferPool" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1270" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-99" value="ByteBuffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="1190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-100" value="ByteBuffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-101" value="ByteBuffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="1260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-102" value="ByteBuffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="1330" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-103" value="ByteBuffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zGg2ZoUMUA5Oq04mwjyU-104" value="ByteBuffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1330" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
