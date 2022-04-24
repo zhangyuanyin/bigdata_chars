@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T11:48:36.861Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="FtIcuC4w91SG3db2h0i_" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-24T06:19:18.060Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="kxY0Q0mVXroMCz5USWVp" version="17.4.6" type="github">
   <diagram id="VYGcic_u051YOZ7rhntI" name="Page-1">
-    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1666" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,7 +70,7 @@
             <mxPoint x="280" y="201" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yBNDKVuawwleMOBCAEkQ-17" value="2. 相应可以上传文件" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="yBNDKVuawwleMOBCAEkQ-17" value="2. 响应可以上传文件" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="300" y="180" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yBNDKVuawwleMOBCAEkQ-18" value="" style="endArrow=classic;html=1;exitX=1.009;exitY=0.179;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.168;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#7EA6E0;strokeWidth=2;" parent="1" edge="1">
@@ -331,7 +331,7 @@
         <mxCell id="db0f5_VPX7KSZ9gDBuB1-35" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;这里的 4 、5 是并发的去读取不同的块&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="215" y="1220" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ri3JljIE9c_S8UoVQ7Nr-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;HDFS 读流程&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ri3JljIE9c_S8UoVQ7Nr-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;HDFS 读流程&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="50" y="900" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
